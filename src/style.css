@@ -1,0 +1,103 @@
+:root {
+  --bg-color: #FAFAF8;
+  --text-color: #444850;
+  --border-color: #E7E9EC;
+  --accent-color: #6486B5;
+  --card-radius: 4px;
+  --font-family-cn: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-en: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --el-color-primary: #6486B5;
+  --el-color-primary-light-3: #6486B5;
+  --el-color-primary-light-5: #6486B5;
+  --el-color-primary-light-7: #6486B5;
+  --el-color-primary-light-9: #6486B5;
+  --el-color-primary-dark-2: #6486B5;
+  --el-border-radius-base: 4px;
+  --el-border-radius-sm: 2px;
+  --el-border-radius-lg: 6px;
+  --el-border-radius-circle: 4px;
+  --el-bg-color: #FAFAF8;
+  --el-bg-color-page: #FAFAF8;
+  --el-bg-color-overlay: #FAFAF8;
+  --el-text-color-primary: #444850;
+  --el-text-color-regular: #444850;
+  --el-text-color-secondary: #888888;
+  --el-text-color-placeholder: #A0A0A0;
+  --el-border-color: #E7E9EC;
+  --el-border-color-light: #E7E9EC;
+  --el-card-bg-color: #FFFFFF;
+  --el-card-header-bg-color: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-family-cn), var(--font-family-en);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-color);
+}
+
+.el-card {
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.el-card.is-hover-shadow {
+  box-shadow: none;
+}
+
+.el-card.is-hover-shadow:hover {
+  box-shadow: none;
+}
+
+.el-button {
+  border-radius: 4px;
+}
+
+.el-button--primary {
+  background-color: #6486B5;
+  border-color: #6486B5;
+  color: #FFFFFF;
+}
+
+.el-button--primary:hover {
+  background-color: #5575A0;
+  border-color: #5575A0;
+}
